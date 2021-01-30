@@ -56,7 +56,7 @@ nav ul li a:hover, a.active{
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
 }
-.booking-form{
+.booking-form,.extra-form{
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 10px;
@@ -65,20 +65,20 @@ nav ul li a:hover, a.active{
     width: 80%;
     margin: 50px 0px 0px 80px;
 }
-.booking-form h3{
+.booking-form h3,.extra-form h3{
     margin: 10px 0px;
 }
-.booking-form  .input-group{
+.booking-form  .input-group,.extra-form  .input-group{
     margin: 10px 0;
 }
 .booking-form  .calculations{
     margin: 10px 0;
 }
-.booking-form  .calculations p{
+.booking-form  .calculations p,.extra-form  .calculations p{
     font-weight: 500;
     margin-bottom: 10px;
 }
-.booking-form input{
+.booking-form input,.extra-form input{
     width: 100%;
     display: block;
     padding: 10px;
@@ -88,7 +88,7 @@ nav ul li a:hover, a.active{
     border-radius: 4px;
     margin: 10px 0;
 }
-.booking-form .inputs{
+.booking-form .inputs,.extra-form .inputs{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -122,3 +122,5 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+
+.extra-form{display: none;}
